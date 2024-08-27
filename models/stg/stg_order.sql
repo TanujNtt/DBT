@@ -1,2 +1,2 @@
 select O_ORDERKEY,O_CUSTKEY,O_TOTALPRICE,O_ORDERDATE 
-from SNOWFLAKE_SAMPLE_DATA.TPCH_SF1.ORDERS
+from {{source("Customer_data","Orders")}}

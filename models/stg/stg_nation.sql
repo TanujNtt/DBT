@@ -1,2 +1,2 @@
 select N_NATIONKEY,N_NAME 
-from SNOWFLAKE_SAMPLE_DATA.TPCH_SF1.NATION
+from {{source("Customer_data","Nation")}}

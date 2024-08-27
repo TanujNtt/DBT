@@ -1,2 +1,2 @@
 select C_CUSTKEY,C_NAME,C_NATIONKEY,C_ACCTBAL 
-from SNOWFLAKE_SAMPLE_DATA.TPCH_SF1.CUSTOMER
+from {{source('Customer_data','Customers')}}

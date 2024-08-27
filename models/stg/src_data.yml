@@ -1,0 +1,8 @@
+sources:
+  - name: Customer_data
+    database: SNOWFLAKE_SAMPLE_DATA
+    schema: TPCH_SF1
+    tables:
+      - name: Customers
+      - name: Nation
+      - name: Orders
